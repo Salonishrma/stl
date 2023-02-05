@@ -11,5 +11,6 @@ int main(){
     cout<<"first element of array "<<a1.front()<<endl;
     cout<<"last element of array "<<a1.back()<<endl;
     cout<<"is array empty "<<a1.empty()<<endl;
+    cout<<"element at this index is "<<a1.at(3);
     return 0;
 }
